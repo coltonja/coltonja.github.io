@@ -1,0 +1,101 @@
+
+body, .container-fluid {
+	background: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: #fff;
+	max-width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	color: #49FFFF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #2A9191;
+}
+
+.greyRow {
+	background-color: #141414;
+	padding: 20px 0 20px 0;
+	opacity: 100%;
+}
+
+.floatRight {
+	float: right;
+}
+
+.row {
+	margin: 3% 0 3% 0;
+}
+
+.col-md-6 {
+	height: 100%;
+}
+
+.table {
+	display: table;
+}
+
+.tableCell {
+	display: table-cell;
+	float: none;
+	padding: 0 0 0 0;
+	vertical-align: middle;
+}
+
+.container-fluid {
+	padding: 0 0 0 0;
+}
+
+.imgDiv img {
+	max-width: 60%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.textBox {
+	width: 70%;
+	display: inline-block;
+	position: relative;
+}
+
+/*ABOUT*/
+
+#profileImg {
+	border-style: solid;
+	border-color: #8c8c8c;
+	border-width: thin;
+}
+
+/*CONTACT*/
+
+.contactInfo {
+	text-align: center;
+}
+
+.contactInfo h2 {
+	border-bottom-style: solid;
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+}
+
+.contactInfo a {
+	color: #fff;
+}
+
+.contactInfo a:hover {
+	color: #8c8c8c;
+}
+
+.contactInfo i {
+	margin: 1em .5em 1em .5em;
+}
