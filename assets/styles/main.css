@@ -10,6 +10,17 @@ body, .container-fluid {
 	font-family: 'Roboto', sans-serif;
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.5;
+      }
+
 a {
 	color: #49FFFF;
 }
@@ -71,6 +82,31 @@ a:hover {
 	border-style: solid;
 	border-color: #8c8c8c;
 	border-width: thin;
+}
+
+/*PORTFOLIO*/
+
+.portfolio {
+	text-align: center;
+}
+
+.portfolio h2 {
+	border-bottom-style: solid;
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+}
+
+.portfolio-block {
+	padding: 5%;
+}
+
+.portfolio img {
+	width: 25%;
+}
+
 }
 
 /*CONTACT*/
